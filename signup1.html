@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignupPage</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login_signup.css">
+    <script src="login_signup.js" defer></script>
+
+</head>
+<body>
+    <form class="container" style="width: 700px; height: 500px;">
+
+        <h1 class="title">Signup</h1>
+        
+        <section class="input-box">
+            <input type="text" name="Full Name" placeholder="Full Name" required>
+            <i class='bx bxs-user'></i>
+        </section>
+        
+        <section class="input-box">
+            <input type="text" name="Email Id/Mobile No." placeholder="Email Id/Mobile No." required>
+            <i class='bx bxs-envelope-open'></i>
+        </section>
+
+        <section class="input-box">
+            <input type="password" id="create-password" name="Create password" placeholder="Create password" required>
+            <span class="toggle-password bx bx-hide" data-target="create-password"></span>
+            <i class='bx bxs-lock-alt' ></i>
+            
+        </section> 
+
+        <section class="input-box">
+            <input type="password" id="confirm-password" name="Confirm password" placeholder="Confirm password" required>
+            <i class='bx bxs-lock-alt' ></i>
+            <span class="toggle-password bx bx-hide" data-target="confirm-password"></span>
+        </section>
+
+        <button class="submit-btn" type="submit">Sign up</button>
+
+        <h5 class="have-an-acc">
+            Already have an account?
+            <a href="login1.html">Login</a>
+
+        </h5>
+
+        <h5 class="Back-to">
+            <a href="#">Back to Home page</a>
+        </h5>
+
+    </form>
+</body>
+</html>
